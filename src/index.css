@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 17px;
+    padding: 100px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    font-family: 'Poiret One', cursive;
+    color: rgb(180, 0, 0);
+    background-color: black;
+    border: 1px solid rgb(68, 13, 13);
+    box-shadow: 0 0 5px rgb(68, 13, 13);
+    font-size: 15px;
+}
+
+.delete {
+    padding: 100px;
+}
+
+.add {
+    margin: 10px;
+}
+
+header {
+    color: rgb(255, 255, 255, 0.6);
+}
+.todo {
+    cursor: pointer;
+    color: rgb(180, 0, 0);
+}
+
+.todolist {
+    color: rgb(180, 0, 0) !important;
+}
+
+form input {
+    color: rgb(180, 0, 0);
+    background-color: black;
+    border: 1px solid rgb(68, 13, 13);
+    box-shadow: 0 0 5px rgb(68, 13, 13);
+    font-size: 15px;
+    font-family: 'Poiret One', cursive;
+}
+
+form input::placeholder {
+    color: rgb(180, 0, 0);
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+}
+
+.strike {
+    text-decoration: rgb(68, 13, 13) line-through;
+}
